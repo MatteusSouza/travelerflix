@@ -5,11 +5,12 @@
 > It is a React project inspired by the Netflix layout and Built during the Alura Bootcamp.
 
 
-[Check out](#)
+[Check out](https://travelerflix.vercel.app/)
 --
 #### How to run the project?
 
 You need previously install node.js
+
 Open the terminal  in the project folder and run these commands:
 
 ```sh
