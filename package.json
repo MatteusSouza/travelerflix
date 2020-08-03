@@ -18,7 +18,7 @@
   "scripts": {
     "server": "json-server --watch db.json --port 8080",
     "dev": "concurrently \"react-scripts start\" \"npm rum server\"",
-    "start": "react-scripts start",
+    "start": "npm rum server",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
