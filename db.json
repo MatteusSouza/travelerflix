@@ -1,0 +1,16 @@
+{
+    "categorias": [ 
+    {
+      "id": 1,
+      "nome": "Noruega",
+      "descrição": "Canais sobrea a Noruega",
+      "cor": "#085AC4"
+    },
+    {
+      "id": 2,
+      "nome": "Brasil",
+      "descrição": "O melhor do Brasil",
+      "cor": "#085AC4"
+    }
+  ]
+}
