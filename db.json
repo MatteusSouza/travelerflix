@@ -2,15 +2,245 @@
     "categorias": [ 
     {
       "id": 1,
-      "nome": "Noruega",
-      "descrição": "Canais sobrea a Noruega",
-      "cor": "#085AC4"
+      "titulo": "Ben Mikha",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "Formação de Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
     },
     {
       "id": 2,
-      "nome": "Brasil",
-      "descrição": "O melhor do Brasil",
-      "cor": "#085AC4"
+      "titulo": "Fábio Coxta",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "Fábio Coxta",
+        "url": "https://www.youtube.com/c/F%C3%A1bioCoxta/featured"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "André Pilli",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "Andre Pilli",
+        "url": "https://www.youtube.com/c/andrepilli/featured"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Japão",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "Japão",
+        "url": "#"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Via Infinda",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "Via Infinda",
+        "url": "https://www.youtube.com/channel/UCkIEY6rUSPy4qQjLqBBLUSg/featured"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "BOLOVO",
+      "cor": "#085AC4",
+      "link_extra": {
+        "text": "BOLOVO",
+        "url": "https://www.youtube.com/user/bolovoproductions"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "SAMOA - Sacred Center",
+      "url": "https://youtu.be/TAh53UcRbUw"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Nirvana - INDIA & NEPAL (Cinematic Travel Film)",
+      "url": "https://youtu.be/UsnrRMKYNJc"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Winter in NEW ZEALAND",
+      "url": "https://youtu.be/KvxiXGbyWfI"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "VARANASI - Cinematic travel film (Sony A7iii)",
+      "url": "https://youtu.be/1udJsv1VcII"
+    }, 
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Pablo Escobar's Mansion, MEXICO - Cinematic Travel film (Sony A7III)",
+      "url": "https://youtu.be/Qd-w5v-D1-8"
+    },
+    {
+      "id": 6,
+      "categoriaId": 2,
+      "titulo": "VISITEI A FAVELA DA ROCINHA ! | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/r8dKYIXuVro"
+    },
+    {
+      "id": 7,
+      "categoriaId": 2,
+      "titulo": "NASCER DO DO SOL NO MIRANTE DONA MARTA | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/Pw9tjBFE3ts"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "VISITAMOS UMA MINA DE OURO EM OURO PRETO! | BRASIL VLOG",
+      "url": "https://youtu.be/czldoMPEsIQ"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "O QUE POUCOS CONHECEM EM ILHA GRANDE | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/ypyRTQgeMOc"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "TRILHA DA PEDRA DA GÁVEA | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/dcgznFzEB7M"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "CACHOEIRA DO MENDANHA - RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/68_quo4Iwdw"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "BATI O DRONE EM ARRAIAL DO CABO! | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/3GkDzOa1TcU"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "QUASE MORRI NA PEDRA DA GÁVEA? | RIO DE JANEIRO VLOG",
+      "url": "https://youtu.be/-6ys1_43bvQ"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "PILLITRIP PERU - VERSÃO COMPLETA",
+      "url": "https://youtu.be/H5GrKQs82Go"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "PILLITRIP PARÁ #sóassiste",
+      "url": "https://youtu.be/Iuc1Xu7H2hQ"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "NOVA YORK, OBRIGADO. | Andre Pilli - Estados Unidos",
+      "url": "https://youtu.be/qJg3ci4Eluw"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "#PilliTrip CANADÁ - URSOS NA ESTRADA Ep.2",
+      "url": "https://www.youtube.com/watch?v=ahxaKzX9PyY&list=PLL46UGkt998TooO6urtAlQZpE_etH1iHl&index=50&t=015s"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Taking Pictures of Strangers in Tokyo, Japan (日本語字幕)",
+      "url": "https://youtu.be/4V_2zQyW9Fg"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "UM DIA COM 4 SKATISTAS PROFISSIONAIS JAPONESES",
+      "url": "https://youtu.be/ynlZXzQrCig"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "JAPÃO: A VIAGEM DA MINHA VIDA",
+      "url": "https://youtu.be/gxFKkTmPl6g"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Templos Japoneses | Nerdtour Japão",
+      "url": "https://youtu.be/7X66CiOrWaI?t=249"
+    },
+    {
+      "id": 21,
+      "categoriaId": 5,
+      "titulo": "Tocando por hambúrguer (ganhamos 4 hambúrguers)",
+      "url": "https://youtu.be/gkUXdloJYYQ"
+    },
+    {
+      "id": 22,
+      "categoriaId": 5,
+      "titulo": "VIAJAR É SE F*DER",
+      "url": "https://youtu.be/dcy9VAxMY2o"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "Agora somos 3 na van!",
+      "url": "https://youtu.be/p15TkKGQJAw"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "Subi Machu Picchu de havaiana!",
+      "url": "https://youtu.be/d75AavoUse4"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "24h Sozinho no Deserto do México",
+      "url": "https://youtu.be/cBhScJKvdTw"
+    },
+    {
+      "id": 26,
+      "categoriaId": 6,
+      "titulo": "Go Out Make Some Memories!",
+      "url": "https://youtu.be/c6dIwSF8JQc"
+    },
+    {
+      "id": 27,
+      "categoriaId": 6,
+      "titulo": "GO OUT! Já se perguntou do quê são feitas as memórias?",
+      "url": "https://youtu.be/MBhwPO2Me58"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "COMO NÃO TREPAR EM UM COQUEIRO, GoOut-Tour Dia 5.",
+      "url": "https://youtu.be/E5xVdomf4OA"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "O SOM DA NATUREZA. Expedição Itatiaia dia 1.",
+      "url": "https://youtu.be/5WB4izo4cBA"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "ADEUS TIKI-BAR! GoOut 28",
+      "url": "https://youtu.be/y7qWDrrNJNA"
     }
   ]
 }
