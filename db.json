@@ -1,5 +1,5 @@
 {
-    "categorias": [ 
+  "categorias": [
     {
       "id": 1,
       "titulo": "Ben Mikha",
@@ -79,7 +79,7 @@
       "categoriaId": 1,
       "titulo": "VARANASI - Cinematic travel film (Sony A7iii)",
       "url": "https://youtu.be/1udJsv1VcII"
-    }, 
+    },
     {
       "id": 5,
       "categoriaId": 1,
