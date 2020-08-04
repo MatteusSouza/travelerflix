@@ -11,9 +11,9 @@
 
 You need previously install node.js
 
-Open the terminal  in the project folder and run these commands:
+Open the terminal in the project folder and run these commands:
 
 ```sh
 npm install
-npm start
+npm run server
 ```
