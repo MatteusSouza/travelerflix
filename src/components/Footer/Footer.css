@@ -1,3 +1,29 @@
-.MyGitOctocat {
-  max-width: 125px;
+.Container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FooterText {
+  box-sizing: border-box;
+  /* background-color: red; */
+  width: 75%;
+  padding-left: 25%;
+  margin: 0 1px;
+  justify-content: flex start;
+  text-align: center;
+  align-items: center;
+}
+
+.FooterImage{
+  box-sizing: border-box;
+  /* background-color: aqua; */
+  max-width: 25%;
+  margin: 0 1px;
+  text-align: center;
+  justify-content: flex-end;
+}
+.MyGitOctocat{
+  max-width:100%;
+  max-height: 120px;
+	height:auto;
 }

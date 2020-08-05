@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
+const FooterBase = styled.footer`
 
-export const FooterBase = styled.footer`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
   background: var(--black);
   border-top: 2px solid var(--primary);
   padding-left: 16px;
@@ -13,8 +9,9 @@ export const FooterBase = styled.footer`
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--white);
-  text-align: center;
   @media (max-width: 800px) {
     margin-bottom: 50px;
   }
 `;
+
+export default FooterBase;
