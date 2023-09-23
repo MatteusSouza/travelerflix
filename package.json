@@ -18,8 +18,8 @@
   "scripts": {
     "server": "node ./server.js",
     "dev": "concurrently \"NODE_OPTIONS=--openssl-legacy-provider react-scripts start\" \"npm run server\"",
-    "start": "npm run server",
-    "build": "react-scripts build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider npm run server",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
