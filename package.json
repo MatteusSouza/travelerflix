@@ -17,7 +17,7 @@
   },
   "scripts": {
     "server": "node ./server.js",
-    "dev": "concurrently \"react-scripts start\" \"npm run server\"",
+    "dev": "concurrently \"NODE_OPTIONS=--openssl-legacy-provider react-scripts start\" \"npm run server\"",
     "start": "npm run server",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +46,8 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^4.0.8"
+  },
+  "engines": {
+  "node": "18.x"
   }
 }
