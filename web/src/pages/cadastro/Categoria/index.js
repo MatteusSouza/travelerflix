@@ -18,8 +18,8 @@ function CadastroCategoria() {
 
   useEffect(() => {
     const URL_SERVER = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://travelerflix.herokuapp.com/categorias';
+      ? 'http://localhost:3000/api/categorias'
+      : process.env.REACT_APP_SERVER;
     fetch(URL_SERVER)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
