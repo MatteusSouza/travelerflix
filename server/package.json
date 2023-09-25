@@ -1,4 +1,7 @@
 {
+    "name": "traveler-server",
+    "version": "0.1.0",
+    "main":"/api/index.js",
     "scripts": {
         "server": "node ./api/index.js",
         "devcel": "VERCEL=TRUE NODE_ENV=development vercel dev",

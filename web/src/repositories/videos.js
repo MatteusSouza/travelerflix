@@ -1,6 +1,6 @@
 import config from '../config';
 
-const URL_VIDEOS = `${config.URL_BACKEND_SERVER}/videos`;
+const URL_VIDEOS = `${config.URL_BACKEND_SERVER}/api/videos`;
 
 function create(objetoDoVideo) {
   return fetch(`${URL_VIDEOS}?_embed=videos`, {
