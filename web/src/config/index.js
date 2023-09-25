@@ -1,5 +1,5 @@
 const URL_BACKEND_SERVER = window.location.hostname.includes('localhost')
-  ? 'http://localhost:8080'
+  ? 'http://localhost:3000'
   : process.env.REACT_APP_SERVER;
 
 export default {
