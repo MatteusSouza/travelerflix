@@ -11,7 +11,7 @@ function Footer() {
         <div className="FooterText">
           <a href="https://github.com/MatteusSouza">Github</a>
           {' / '}
-          <a href="https://www.linkedin.com/in/matteus-souza/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/matteussouza/">Linkedin</a>
           <p>
             Projeto feito em React durante o bootcamp da Alura.
             <span role="img" aria-label="sheep">💙💙</span>

@@ -1,4 +1,5 @@
-const URL_BACKEND_SERVER = window.location.hostname.includes('localhost')
+
+const URL_BACKEND_SERVER = process.env.REACT_APP_ENV === 'development'
   ? 'http://localhost:3000'
   : process.env.REACT_APP_SERVER;
 
