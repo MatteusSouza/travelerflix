@@ -5,7 +5,7 @@
     "scripts": {
         "server": "node ./api/index.js",
         "devcel": "VERCEL=TRUE NODE_ENV=development vercel dev",
-        "dev": "NODE_ENV=development npm run server",
+        "dev": "REACT_APP_ENV=development npm run server",
         "start": "npm run server"
     },
     "dependencies": {
